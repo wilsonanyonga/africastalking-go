@@ -50,6 +50,7 @@ type Subscription struct {
 
 // Recipient is a model
 type Recipient struct {
+	StatusCode int    `json:"statusCode"`
 	Number    string `json:"number"`
 	Cost      string `json:"cost"`
 	Status    string `json:"status"`
