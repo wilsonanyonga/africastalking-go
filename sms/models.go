@@ -8,6 +8,7 @@ type SendMessageResponse struct {
 // SMS2 is a model
 type SMS2 struct {
 	Recipients []Recipient `json:"recipients"`
+	Message    string      `json:"Message"`
 }
 
 // SubscriptionResponse is a model
